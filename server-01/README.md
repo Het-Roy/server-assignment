@@ -7,9 +7,11 @@ https://documenter.getpostman.com/view/50871368/2sBXcGCeJb
 💫Render Deployment:
 https://server-assignment-ns5p.onrender.com/
 
+## Student CGPA API
+
 A simple REST API built using **Node.js** and **Express.js** to manage student CGPA data using an in-memory JSON database.
 
-## 🚀 Features
+## Features
 
 - Get all students → `GET /students`
 - Get topper → `GET /students/topper`
