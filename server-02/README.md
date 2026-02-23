@@ -13,7 +13,7 @@ https://documenter.getpostman.com/view/50871368/2sBXcGCeTS
 https://server-assignment-2-7bee.onrender.com/
  
 ## Features
-
+  
 ### GET Routes
 - Get all products → `GET /products`
 - Get product by ID → `GET /products/:id`
