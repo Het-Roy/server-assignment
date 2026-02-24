@@ -20,4 +20,3 @@ https://server-assignment-ns5p.onrender.com/
 - Get total count → `GET /students/count`
 - Get student by ID → `GET /students/:id`
 - Get students by branch → `GET /students/branch/:branchName`
-- Proper error handling
