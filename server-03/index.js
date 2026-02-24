@@ -72,7 +72,7 @@ app.post("/states", (req, res) => {
   const newState = {
     id: states.length + 1,
     name: req.body.name,
-    role: req.body.role,
+    population: req.body.population,
     literacyRate: req.body.literacyRate,
     annualBudget: req.body.annualBudget,
     gdp: req.body.gdp

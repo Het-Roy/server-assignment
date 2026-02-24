@@ -4,13 +4,13 @@ A full REST API built using **Node.js** and **Express.js** to manage state stati
 
 
 💫GitHub Repo:
-https://github.com/Het-Roy/server-assignment/tree/main/server-02
+https://github.com/Het-Roy/server-assignment/tree/main/server-03
 
 💫Postman Documentation:
 https://documenter.getpostman.com/view/50871368/2sBXcGCeTS
 
 💫Render Deployment:
-https://server-assignment-2-7bee.onrender.com/
+https://server-assignment-1-nufj.onrender.com/
 
 
 ##  Features
@@ -23,7 +23,7 @@ https://server-assignment-2-7bee.onrender.com/
 ### POST Route
 - Add new state → `POST /states`
 
-### PUT Routes
+### PUT RouteAd
 - Update state → `PUT /states/:id`
 - Update budget → `PUT /states/:id/budget`
 - Update population → `PUT /states/:id/population`
