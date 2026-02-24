@@ -2,8 +2,6 @@
 
 A full REST API built using **Node.js** and **Express.js** to manage state statistics using an in-memory JSON database.
 
-Supports **GET, POST, PUT, PATCH, DELETE** operations.
-
 
 💫GitHub Repo:
 https://github.com/Het-Roy/server-assignment/tree/main/server-02
