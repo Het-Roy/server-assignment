@@ -76,7 +76,7 @@ const students = [
 ];
 
 app.get("/students", (req, res) => {
-    console.log(req)
+  
   res.status(200).json(students);
 });
 
