@@ -188,7 +188,7 @@ app.patch("/states/:id/gdp", (req, res) => {
 app.patch("/states/:id", (req, res) => {
   const stateId = Number(req.params.id);
   const state = states.find(u => u.id === stateId);
-
+  console.log(state)
   if (!state) {
     return res.status(404).json({ message: "State not found" });
   }
@@ -218,7 +218,7 @@ app.patch("/states/:id", (req, res) => {
     state.gdp = req.body.gdp;
     updatedField.gdp = state.gdp;
   }
-
+  // console.log(updatedField)
   res.status(200).json(updatedField);
 });
 
@@ -261,9 +261,9 @@ app.delete("/states/low-literacy/:percentage", (req, res) => {
 
   const deleteCount = length - remStates.length;
 
-  states = remStates          //original array = remaining states that are educated --> it is used for GET req
+  states = remStates          //IMP -> original array = remaining states that are educated --> it is used for GET req
 
-  console.log(deleteCount); 
+  console.log(deleteCount);  
 
   res.status(200).send({
     "deleteCount" : deleteCount

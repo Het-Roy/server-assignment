@@ -7,10 +7,10 @@ A full REST API built using **Node.js** and **Express.js** to manage state stati
 https://github.com/Het-Roy/server-assignment/tree/main/server-03
 
 💫Postman Documentation:
-https://documenter.getpostman.com/view/50871368/2sBXcGCeTS
+https://documenter.getpostman.com/view/50871368/2sBXcGDf3x
 
 💫Render Deployment:
-https://server-assignment-1-nufj.onrender.com/
+https://server-assignment-3.onrender.com/
 
 
 ##  Features
@@ -31,7 +31,7 @@ https://server-assignment-1-nufj.onrender.com/
 ### PATCH Routes
 - Update literacy → `PATCH /states/:id/literacy`
 - Update GDP → `PATCH /states/:id/gdp`
-- Update area → `PATCH /states/:id/area`
+- Update Particular Field → `PATCH /states/:id`
 
 ### DELETE Routes
 - Delete state → `DELETE /states/:id`
