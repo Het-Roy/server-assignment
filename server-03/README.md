@@ -4,7 +4,6 @@ A full REST API built using **Node.js** and **Express.js** to manage state stati
 
 Supports **GET, POST, PUT, PATCH, DELETE** operations.
 
---
 
 💫GitHub Repo:
 https://github.com/Het-Roy/server-assignment/tree/main/server-02
@@ -15,7 +14,6 @@ https://documenter.getpostman.com/view/50871368/2sBXcGCeTS
 💫Render Deployment:
 https://server-assignment-2-7bee.onrender.com/
 
---
 
 ##  Features
 
